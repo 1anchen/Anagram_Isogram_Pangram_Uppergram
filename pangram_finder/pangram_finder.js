@@ -9,8 +9,8 @@ PangramFinder.prototype.isPangram = function () {
   let newArray = Array.from(testPhrase);
   let tempArray = [];
   let dupArray = [];
+  let condition = null;
 
-  let condition = 0;
   newArray.forEach((letter) => {
 
     if(alphabetArray.includes(letter)){
